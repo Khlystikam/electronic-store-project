@@ -1,0 +1,19 @@
+# Laravel (admin-panel)
+admin-panel/vendor/
+admin-panel/.env
+admin-panel/storage/*.key
+admin-panel/public/storage
+admin-panel/bootstrap/cache/*
+
+# React (conbat-frontend)
+conbat-frontend/node_modules/
+conbat-frontend/dist/
+conbat-frontend/.env.local
+
+# Общее
+.DS_Store
+.idea/
+.vscode/
+node_modules
+.next
+.env
