@@ -1,19 +1,44 @@
-# Laravel (admin-panel)
+# Зависимости (библиотеки)
+node_modules/
 admin-panel/vendor/
+.pnp
+.pnp.js
+
+# Сборка и логи
+.next/
+conbat-frontend/dist/
+out/
+build/
+admin-panel/bootstrap/cache/*
+admin-panel/storage/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Окружение и секреты (КРИТИЧЕСКИ ВАЖНО)
+.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
 admin-panel/.env
 admin-panel/storage/*.key
-admin-panel/public/storage
-admin-panel/bootstrap/cache/*
 
-# React (conbat-frontend)
-conbat-frontend/node_modules/
-conbat-frontend/dist/
-conbat-frontend/.env.local
+# Prisma
+# Игнорируем только базу данных, если используешь SQLite
+*.db
+*.db-journal
 
-# Общее
+# IDE и системные файлы
 .DS_Store
 .idea/
 .vscode/
-node_modules
-.next
-.env
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Laravel специфичное
+admin-panel/public/storage
+admin-panel/public/hot

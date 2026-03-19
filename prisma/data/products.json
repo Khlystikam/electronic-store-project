@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Ноутбук ASUS E1504GA-BQ562/15.6\"/Intel Core i3 N305/8/256/NoOS/Black",
+    "sku": "30072638",
+    "price": 50499,
+    "image_url": "img/435665.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Ноутбук Lenovo IdeaPad 3 15ABA7 / Ryzen 5 5500U / 16 ГБ / 512 ГБ SSD / Win 11 / Grey",
+    "sku": "30145219",
+    "price": 58999,
+    "image_url": "img/435666.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Ноутбук Acer Aspire 5 A515-57 / Intel Core i5-1235U / 8 ГБ / 512 ГБ SSD / Win 11 / Silver",
+    "sku": "30218734",
+    "price": 67990,
+    "image_url": "img/435667.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Ноутбук MSI Modern 14 C12M / Intel Core i7-1255U / 16 ГБ / 1 ТБ SSD / Win 11 / Black",
+    "sku": "30356821",
+    "price": 89999,
+    "image_url": "img/435668.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Ноутбук Apple MacBook Air 13 M1 / 8GB / 256GB / Space Grey (2020)",
+    "sku": "30433210",
+    "price": 84999,
+    "image_url": "img/435669.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Смартфон Samsung Galaxy A54 5G / 6.4\" / 8GB/256GB / Black",
+    "sku": "30544178",
+    "price": 37999,
+    "image_url": "img/435670.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Смартфон Xiaomi Redmi Note 12 Pro 4G / 6.67\" / 8GB/256GB / Blue",
+    "sku": "30655789",
+    "price": 28999,
+    "image_url": "img/435671.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Смартфон Apple iPhone 14 128GB / Midnight",
+    "sku": "30766123",
+    "price": 72999,
+    "image_url": "img/435672.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Смартфон Google Pixel 7a / 6.1\" / 8GB/128GB / Charcoal",
+    "sku": "30877456",
+    "price": 41999,
+    "image_url": "img/435673.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Смартфон Honor 90 / 6.7\" / 12GB/512GB / Emerald Green",
+    "sku": "30988567",
+    "price": 45999,
+    "image_url": "img/435674.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Планшет Samsung Galaxy Tab S9 FE / 10.9\" / 6GB/128GB / Wi-Fi / Grey",
+    "sku": "31099123",
+    "price": 40999,
+    "image_url": "img/435675.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Планшет Apple iPad 10.9 10th Gen / 64GB / Wi-Fi / Silver",
+    "sku": "31110234",
+    "price": 44999,
+    "image_url": "img/435676.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Планшет Xiaomi Pad 6 / 11\" / 8GB/256GB / Wi-Fi / Grey",
+    "sku": "31221345",
+    "price": 32999,
+    "image_url": "img/435677.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Планшет HONOR Pad X8 / 10.4\" / 4GB/128GB / Wi-Fi / Blue",
+    "sku": "31332456",
+    "price": 19999,
+    "image_url": "img/435678.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Наушники Apple AirPods Pro (2nd generation) with MagSafe Case (USB‑C)",
+    "sku": "31443567",
+    "price": 24999,
+    "image_url": "img/435679.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Наушники Samsung Galaxy Buds2 Pro / Graphite",
+    "sku": "31554678",
+    "price": 16999,
+    "image_url": "img/435680.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Наушники Sony WH-1000XM5 / Black",
+    "sku": "31665789",
+    "price": 32999,
+    "image_url": "img/435681.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Наушники JBL Tune 520BT / Blue",
+    "sku": "31776890",
+    "price": 5499,
+    "image_url": "img/435682.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Наушники Xiaomi Redmi Buds 4 Pro / Black",
+    "sku": "31887901",
+    "price": 4499,
+    "image_url": "img/435683.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Умные часы Samsung Galaxy Watch 6 Classic 43mm / Black",
+    "sku": "31998012",
+    "price": 29999,
+    "image_url": "img/435684.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Умные часы Apple Watch Series 9 41mm / Midnight Aluminum / Sport Band",
+    "sku": "32009123",
+    "price": 44999,
+    "image_url": "img/435685.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Умные часы Xiaomi Watch S1 Active / Ocean Blue",
+    "sku": "32110234",
+    "price": 13999,
+    "image_url": "img/435686.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Умные часы Huawei Watch GT 4 46mm / Black",
+    "sku": "32221345",
+    "price": 18999,
+    "image_url": "img/435687.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Монитор 23.8\" Acer KA242Y Ebi / 1920x1080 / IPS / 100Hz / Black",
+    "sku": "32332456",
+    "price": 15999,
+    "image_url": "img/435688.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Монитор 27\" Samsung S27A400UHI / 1920x1080 / IPS / 75Hz / Grey",
+    "sku": "32443567",
+    "price": 21999,
+    "image_url": "img/435689.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Монитор 27\" LG 27UP600 / 4K UHD / IPS / 60Hz / Black",
+    "sku": "32554678",
+    "price": 32999,
+    "image_url": "img/435690.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Монитор 34\" Xiaomi Curved Gaming Monitor / 3440x1440 / 144Hz / Grey",
+    "sku": "32665789",
+    "price": 47999,
+    "image_url": "img/435691.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Клавиатура Logitech MX Keys / Graphite (wireless)",
+    "sku": "32776890",
+    "price": 11999,
+    "image_url": "img/435692.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Клавиатура Razer BlackWidow V3 / Green Switch / Black (wired)",
+    "sku": "32887901",
+    "price": 14999,
+    "image_url": "img/435693.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Мышь Logitech G502 HERO / Black (wired)",
+    "sku": "32998012",
+    "price": 6999,
+    "image_url": "img/435694.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Мышь Xiaomi Mi Wireless Mouse 3 / Grey",
+    "sku": "33009123",
+    "price": 1999,
+    "image_url": "img/435695.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Внешний жесткий диск 1ТБ Western Digital My Passport / Black (USB 3.0)",
+    "sku": "33110234",
+    "price": 6999,
+    "image_url": "img/435696.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "SSD накопитель 1ТБ Samsung 980 / M.2 NVMe",
+    "sku": "33221345",
+    "price": 8999,
+    "image_url": "img/435697.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Флешка 64GB SanDisk Ultra Fit / USB 3.2 / Black",
+    "sku": "33332456",
+    "price": 999,
+    "image_url": "img/435698.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Роутер MikroTik hAP ax2 / Black",
+    "sku": "33443567",
+    "price": 10999,
+    "image_url": "img/435699.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Роутер TP-Link Archer AX53 / Black",
+    "sku": "33554678",
+    "price": 7499,
+    "image_url": "img/435700.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Колонка Яндекс Станция Миди / Черный (с Алисой)",
+    "sku": "33665789",
+    "price": 24999,
+    "image_url": "img/435701.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Колонка JBL Charge 5 / Black",
+    "sku": "33776890",
+    "price": 16999,
+    "image_url": "img/435702.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Электронная книга Amazon Kindle 2022 / 6\" / 16GB / Black",
+    "sku": "33887901",
+    "price": 13999,
+    "image_url": "img/435703.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Электронная книга PocketBook 740 Pro / 7.8\" / 16GB / Black",
+    "sku": "33998012",
+    "price": 29999,
+    "image_url": "img/435704.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Видеорегистратор 70mai A510 / Dual Channel / Black",
+    "sku": "34009123",
+    "price": 11999,
+    "image_url": "img/435705.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Игровая приставка Sony PlayStation 5 Slim / Digital Edition",
+    "sku": "34110234",
+    "price": 54999,
+    "image_url": "img/435706.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Игровая приставка Microsoft Xbox Series S / 512GB / White",
+    "sku": "34221345",
+    "price": 35999,
+    "image_url": "img/435707.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Геймпад Xbox Wireless Controller / Carbon Black",
+    "sku": "34332456",
+    "price": 6499,
+    "image_url": "img/435708.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Веб-камера Logitech C920s HD Pro / Black",
+    "sku": "34443567",
+    "price": 8999,
+    "image_url": "img/435709.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Принтер Pantum P2502W / Laser / Black (Wi-Fi)",
+    "sku": "34554678",
+    "price": 14999,
+    "image_url": "img/435710.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "МФУ Canon PIXMA TS3440 / Inkjet / Black (Wi-Fi)",
+    "sku": "34665789",
+    "price": 8999,
+    "image_url": "img/435711.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Стабилизатор для смартфона DJI Osmo Mobile 6 / Grey",
+    "sku": "34776890",
+    "price": 13999,
+    "image_url": "img/435712.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Экшн-камера GoPro HERO 12 Black / 5.3K",
+    "sku": "34887901",
+    "price": 44999,
+    "image_url": "img/435713.webp",
+    "categoryName": "electronics"
+  },
+  {
+    "name": "Зарядное устройство Baseus GaN5 Pro 65W / White (2xUSB-C+USB-A)",
+    "sku": "34998012",
+    "price": 3499,
+    "image_url": "img/435714.webp",
+    "categoryName": "electronics"
+  }
+]
