@@ -5,28 +5,70 @@
   --foreground: #171717;
 }
 
-body {
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* box-shadow */
+  --box-shadow-button: 2px 2px 7px 0 rgba(0, 0, 0, 0.5);
+  /* color button admin panel */
+  --admin-bg-color: #191b3d;
+  --admin-bg-color-hover: #1e2149;
+  
+  --color-admin-button: #fff;
+  --color-admin-button-hover: #fbcb7f;
+
+  --admin-bg-color-active: #121533;
+  --color-admin-button-active: #fcb74a;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #ededed; 
-    --foreground: #0a0a0a;
-  }
-} */
+.admin-button {
+  color: var(--color-admin-button);
+  background: var(--admin-bg-color);
+  box-shadow: var(--box-shadow-button);
+  transition: 0.3s;
+}
+
+.admin-button:hover {
+  color: var(--color-admin-button-hover);
+  background: var(--admin-bg-color-hover);
+  transition: 0.3s;
+}
+
+.admin-button-active {
+  color: var(--color-admin-button-active);
+  background: var(--admin-bg-color-active);
+  border: solid 1px #fff;
+}
+
+h1 { 
+  font-size: clamp(28px, 5vw, 56px);
+  line-height: clamp(1.4, 1.6, 1.8);
+}
+h2 {
+  font-size: clamp(24px, 4vw, 40px);
+  line-height: clamp(1.2, 1.3, 1.6);
+}
+h3 {
+  font-size: clamp(20px, 3vw, 32px);
+  line-height: clamp(1.1, 1.2, 1.3);
+}
+p  {
+  font-size: clamp(12px, 2vw, 16px);
+  line-height: clamp(1, 1.1, 1.2);
+}
+a  {
+  font-size: clamp(12px, 2vw, 16px);
+  line-height: clamp(1, 1.1, 1.2);
+}
+
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
 }

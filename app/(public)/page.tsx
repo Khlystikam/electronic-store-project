@@ -27,7 +27,9 @@ export default async function HomePage() {
 
 								<div className="flex items-center justify-between mt-auto">
 									<span className="text-2xl font-black text-gray-900">{Number(product.price)} ₽</span>
-									<button className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg cursor-pointer hover:bg-blue-800 transition-colors">Подробнее</button>
+									<button className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg cursor-pointer hover:bg-blue-800 transition-colors">
+										Подробнее
+									</button>
 								</div>
 							</div>
 						</div>
