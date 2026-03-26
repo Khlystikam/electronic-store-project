@@ -1,4 +1,5 @@
 import { prisma } from "@/lib/prisma";
+import { ProductForm } from "@/app/admin/products/addProducts/ProductForm";
 
 export default async function Products() {
 	// Теперь await разрешен
@@ -6,9 +7,19 @@ export default async function Products() {
 		orderBy: { createdAt: "desc" },
 	});
 
+	// 2. Получаем все категории для выпадающего списка в форме
+	const categories = await prisma.category.findMany({
+		orderBy: { name: "asc" },
+	});
+
 	return (
 		<div className="w-full">
 			<h1 className="text-2xl text-white font-bold mb-6">Управление товарами</h1>
+
+			<p className="mb-6">Добавление новой категории</p>
+			<div className="mb-10">
+				<ProductForm categories={categories} />
+			</div>
 
 			<table className="border-collapse border border-gray-200">
 				<thead>
