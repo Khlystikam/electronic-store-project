@@ -30,7 +30,7 @@ export async function addProduct(prevState: any, formData: FormData) {
 		});
 
 		// 3. Обновляем кэш
-		revalidatePath("/admin/products");
+		revalidatePath("/", "layout");
 		return { success: true, message: "Товар успешно добавлен" };
 	} catch (error: any) {
 		console.error("Ошибка БД:", error);

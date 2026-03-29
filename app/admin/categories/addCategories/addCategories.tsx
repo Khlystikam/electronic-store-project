@@ -19,7 +19,8 @@ export async function addCategory(formData: FormData) {
 		});
 
 		// 3. Обновляем страницу
-		revalidatePath("/admin/categories");
+		revalidatePath("/admin/products");
+		revalidatePath("/", "layout");
 	} catch (error) {
 		// Если категория уже есть (ошибка уникальности) или отвалилась БД
 		console.error("Ошибка при добавлении в БД:", error);
