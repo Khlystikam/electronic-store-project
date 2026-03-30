@@ -1,10 +1,9 @@
 "use client";
 
-import { addProduct } from "@/app/admin/products/addProducts/addProducts";
+import { addProduct } from "./addProducts";
 import { useActionState } from "react";
 import { useFormStatus } from "react-dom";
 
-// Отдельный компонент кнопки для обработки состояния загрузки
 function SubmitButton() {
 	const { pending } = useFormStatus();
 	return (
@@ -15,7 +14,6 @@ function SubmitButton() {
 }
 
 export function ProductForm({ categories }: { categories: any[] }) {
-	// state будет содержать ответ от сервера (ошибку или успех)
 	const [state, formAction] = useActionState(addProduct, null);
 
 	return (
@@ -29,7 +27,6 @@ export function ProductForm({ categories }: { categories: any[] }) {
 
 			<div className="flex gap-4">
 				<input type="number" step="0.01" name="price" placeholder="Цена" required className="w-1/2 bg-gray-900 border border-gray-600 text-white p-2 rounded" />
-
 				<select name="categoryId" className="w-1/2 bg-gray-900 border border-gray-600 text-white p-2 rounded">
 					<option value="">Выберите категорию</option>
 					{categories.map((cat) => (
@@ -40,7 +37,12 @@ export function ProductForm({ categories }: { categories: any[] }) {
 				</select>
 			</div>
 
-			{/* Вывод ошибок */}
+			{/* Поле для картинки */}
+			<div className="flex flex-col gap-2">
+				<label className="text-sm text-gray-400">Фото товара</label>
+				<input type="file" name="image" accept="image/*" className="text-white text-sm" />
+			</div>
+
 			{state?.error && <p className="text-red-500">{state.error}</p>}
 			{state?.success && <p className="text-green-500">{state.message}</p>}
 

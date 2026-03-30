@@ -22,7 +22,7 @@ export default async function ProductList({ queryOptions, title }: ProductListPr
 							key={product.id}
 							className="h-115 bg-white rounded-xl shadow-sm border border-gray-100 cursor-pointer overflow-hidden hover:shadow-lg transition-shadow"
 						>
-							<div className="h-48 bg-gray-200 w-full flex items-center justify-center text-gray-400">{product.imageUrl ? "Фото товара" : "Нет фото"}</div>
+							<img src={`/api/images/${product.imageUrl}`} alt={product.name} />
 
 							<div className="relative h-55 p-5">
 								<div className="text-xs font-semibold text-blue-600 mb-2 uppercase tracking-wide">{product.category?.name || "Без категории"}</div>

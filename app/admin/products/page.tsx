@@ -1,6 +1,8 @@
 import { prisma } from "@/lib/prisma";
 import { ProductForm } from "@/app/admin/products/addProducts/ProductForm";
 
+// /images/electronics-store
+
 export default async function Products() {
 	// Теперь await разрешен
 	const products = await prisma.product.findMany({
@@ -16,7 +18,7 @@ export default async function Products() {
 		<div className="w-full">
 			<h1 className="text-2xl text-white font-bold mb-6">Управление товарами</h1>
 
-			<p className="mb-6">Добавление новой категории</p>
+			<p className="mb-6">Добавление новый товар</p>
 			<div className="mb-10">
 				<ProductForm categories={categories} />
 			</div>
