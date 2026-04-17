@@ -7,24 +7,43 @@ datasource db {
 }
 
 model Category {
-  id       Int       @id @default(autoincrement())
-  name     String    @unique
-  products Product[] // Связь: одна категория - много товаров
+  id              Int              @id @default(autoincrement())
+  name            String           @unique
+  products        Product[]
+  characteristics Characteristic[]
+}
+
+model Characteristic {
+  id         Int            @id @default(autoincrement())
+  name       String
+  categoryId Int
+  category   Category       @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  values     ProductValue[]
+
+  @@unique([name, categoryId]) // Чтобы в одной категории не было двух одинаковых названий характеристик
 }
 
 model Product {
-  id          Int       @id @default(autoincrement())
-  name        String    @db.VarChar(255) // Это будет заменять твой product.title
-  description String?   @db.Text         // Добавили описание
-  sku         String    @unique @db.VarChar(100)
-  price       Decimal   @db.Decimal(10, 2)
-  imageUrl    String?   @map("image_url") @db.Text
-  createdAt   DateTime  @default(now())
-  updatedAt   DateTime  @updatedAt
-
-  // Настройка связи с категорией
-  categoryId  Int?      @map("category_id")
-  category    Category? @relation(fields: [categoryId], references: [id])
+  id          Int            @id @default(autoincrement())
+  name        String         @db.VarChar(255)
+  description String?        @db.Text
+  sku         String         @unique @db.VarChar(100)
+  price       Decimal        @db.Decimal(10, 2)
+  imageUrl    String?        @map("image_url") @db.Text
+  categoryId  Int?           @map("category_id")
+  category    Category?      @relation(fields: [categoryId], references: [id])
+  values      ProductValue[]
 
   @@map("Product")
+}
+
+model ProductValue {
+  id               Int            @id @default(autoincrement())
+  value            String         @db.Text
+  productId        Int
+  characteristicId Int
+  product          Product        @relation(fields: [productId], references: [id], onDelete: Cascade)
+  characteristic   Characteristic @relation(fields: [characteristicId], references: [id], onDelete: Cascade)
+
+  @@unique([productId, characteristicId]) // У одного товара одно значение для одной характеристики
 }
